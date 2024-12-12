@@ -1,0 +1,100 @@
+:root {
+    --text-color: #00000080;
+}
+body {
+    font-family: Lexend;
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100svw;
+    height: 100svh;
+    background: rgb(21,21,61);
+    background: linear-gradient(0deg, #15153d 0%, #4544c2 100%);
+}
+input {
+    width: 588px;
+    padding: 0px;
+}
+input[type=text]:focus {
+    outline: none;
+}
+button {
+    display: flex;
+    padding: 0px;
+    width: 16px;
+    height: 16px;
+}
+.rick {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 30%;
+}
+.search {
+    background-color: #00000000;
+    border: none;
+    color: white;
+}
+.searchbar {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 2svh;
+    align-items: center;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: #00000066;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 55%;
+}
+.yee {
+    position: absolute;
+    bottom: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    align-self: center;
+}
+h1 {
+    font-size: 500%;
+    color: var(--text-color);
+    justify-self: center;
+    margin-bottom: 0px;
+}
+h1 span {
+    font-style: italic;
+    font-weight: 400;
+}
+p {
+    color: var(--text-color);
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 6svh;
+}
+.icon {
+    height: 1em;
+    width: 1em;
+}
+select {
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: #00000000;
+    border: none;
+    outline: none;
+    color: white;
+}
+option {
+    background-color: #282828;
+}
